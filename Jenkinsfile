@@ -1,6 +1,6 @@
 pipeline{
     agent {
-    label "slmo-rhel7-01"}
+    label "slmo-win10-03"}
     stages{
         stage("A"){
             steps{
