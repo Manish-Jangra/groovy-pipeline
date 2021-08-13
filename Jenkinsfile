@@ -4,7 +4,7 @@ pipeline{
         stage("A"){
             steps{
                 echo "========executing A========"
-                powershell 'Write-Host "Hello, Groovy !!!"'
+                powershell 'Write-Host "Hello, Manish !!!"'
             }
             post{
                 always{
